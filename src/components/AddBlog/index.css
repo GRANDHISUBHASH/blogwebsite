@@ -1,0 +1,53 @@
+.blog-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.add-blog-container {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.blog-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.blog-inputs input,
+.blog-inputs textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.blog-inputs textarea {
+  resize: vertical;
+}
+
+.blog-inputs button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.blog-inputs button:hover {
+  background-color: #45a049;
+}
+.add-blog-container {
+  width: 50%;
+  height: 66%;
+  padding: 52px;
+}
+.blog-inputs {
+  padding: 30px;
+  align-items: stretch;
+}
